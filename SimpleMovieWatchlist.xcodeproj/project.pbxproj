@@ -31,6 +31,7 @@
 		55607D382CB973C4007CC68F /* SimpleMovieWatchlist.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SimpleMovieWatchlist.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		55607D4E2CB973C5007CC68F /* SimpleMovieWatchlistTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SimpleMovieWatchlistTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		55607D582CB973C5007CC68F /* SimpleMovieWatchlistUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SimpleMovieWatchlistUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		55E356192CC7F95900798BA8 /* SimpleMovieWatchlist.xctestplan */ = {isa = PBXFileReference; lastKnownFileType = text; path = SimpleMovieWatchlist.xctestplan; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
@@ -78,6 +79,7 @@
 		55607D2F2CB973C4007CC68F = {
 			isa = PBXGroup;
 			children = (
+				55E356192CC7F95900798BA8 /* SimpleMovieWatchlist.xctestplan */,
 				55607D3A2CB973C4007CC68F /* SimpleMovieWatchlist */,
 				55607D512CB973C5007CC68F /* SimpleMovieWatchlistTests */,
 				55607D5B2CB973C5007CC68F /* SimpleMovieWatchlistUITests */,

@@ -1,0 +1,37 @@
+{
+  "configurations" : [
+    {
+      "id" : "ABCC9F7A-FA04-41F6-84E1-E379EA242BA8",
+      "name" : "Test Scheme Action",
+      "options" : {
+
+      }
+    }
+  ],
+  "defaultOptions" : {
+    "targetForVariableExpansion" : {
+      "containerPath" : "container:SimpleMovieWatchlist.xcodeproj",
+      "identifier" : "55607D372CB973C4007CC68F",
+      "name" : "SimpleMovieWatchlist"
+    }
+  },
+  "testTargets" : [
+    {
+      "parallelizable" : true,
+      "target" : {
+        "containerPath" : "container:SimpleMovieWatchlist.xcodeproj",
+        "identifier" : "55607D4D2CB973C5007CC68F",
+        "name" : "SimpleMovieWatchlistTests"
+      }
+    },
+    {
+      "parallelizable" : true,
+      "target" : {
+        "containerPath" : "container:SimpleMovieWatchlist.xcodeproj",
+        "identifier" : "55607D572CB973C5007CC68F",
+        "name" : "SimpleMovieWatchlistUITests"
+      }
+    }
+  ],
+  "version" : 1
+}
