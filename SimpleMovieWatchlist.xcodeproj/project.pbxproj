@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 77;
+	objectVersion = 70;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -34,7 +34,7 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
-		55607D602CB973C5007CC68F /* Exceptions for "SimpleMovieWatchlist" folder in "SimpleMovieWatchlist" target */ = {
+		55607D602CB973C5007CC68F /* PBXFileSystemSynchronizedBuildFileExceptionSet */ = {
 			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
 			membershipExceptions = (
 				Info.plist,
@@ -44,24 +44,9 @@
 /* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
-		55607D3A2CB973C4007CC68F /* SimpleMovieWatchlist */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			exceptions = (
-				55607D602CB973C5007CC68F /* Exceptions for "SimpleMovieWatchlist" folder in "SimpleMovieWatchlist" target */,
-			);
-			path = SimpleMovieWatchlist;
-			sourceTree = "<group>";
-		};
-		55607D512CB973C5007CC68F /* SimpleMovieWatchlistTests */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = SimpleMovieWatchlistTests;
-			sourceTree = "<group>";
-		};
-		55607D5B2CB973C5007CC68F /* SimpleMovieWatchlistUITests */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = SimpleMovieWatchlistUITests;
-			sourceTree = "<group>";
-		};
+		55607D3A2CB973C4007CC68F /* SimpleMovieWatchlist */ = {isa = PBXFileSystemSynchronizedRootGroup; exceptions = (55607D602CB973C5007CC68F /* PBXFileSystemSynchronizedBuildFileExceptionSet */, ); explicitFileTypes = {}; explicitFolders = (); path = SimpleMovieWatchlist; sourceTree = "<group>"; };
+		55607D512CB973C5007CC68F /* SimpleMovieWatchlistTests */ = {isa = PBXFileSystemSynchronizedRootGroup; explicitFileTypes = {}; explicitFolders = (); path = SimpleMovieWatchlistTests; sourceTree = "<group>"; };
+		55607D5B2CB973C5007CC68F /* SimpleMovieWatchlistUITests */ = {isa = PBXFileSystemSynchronizedRootGroup; explicitFileTypes = {}; explicitFolders = (); path = SimpleMovieWatchlistUITests; sourceTree = "<group>"; };
 /* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -206,6 +191,7 @@
 				};
 			};
 			buildConfigurationList = 55607D332CB973C4007CC68F /* Build configuration list for PBXProject "SimpleMovieWatchlist" */;
+			compatibilityVersion = "Xcode 15.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -217,7 +203,6 @@
 			packageReferences = (
 				55607D9D2CB98430007CC68F /* XCRemoteSwiftPackageReference "Kingfisher" */,
 			);
-			preferredProjectObjectVersion = 77;
 			productRefGroup = 55607D392CB973C4007CC68F /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
